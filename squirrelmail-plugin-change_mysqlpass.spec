@@ -1,7 +1,7 @@
 %define		_plugin	change_mysqlpass
 %define		mversion	1.2.8
 Summary:	Change_mysqlpass plugin for SquirrelMail
-Summary(pl):	Wtyczka do zmiany hase≥ w bazie MySQL
+Summary(pl.UTF-8):   Wtyczka do zmiany hase≈Ç w bazie MySQL
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	3.2
 Release:	1
@@ -23,12 +23,12 @@ force password changes. If you have SSL support in your web server,
 you may also force the connection to SSL when the user is changing her
 password.
 
-%description -l pl
-Change MySQL Password pozwala uøytkownikom na zmianÍ ich hase≥ je∂li
-s± przechowywane w mazie MySQL. Obs≥uguje szyfrowanie (MD5, SASL,
-UNIX) oraz has≥a czystym tekstem w zaleøno∂ci od tego, na co pozwala
-administrator. Je∂li serwer WWW obs≥uguje SSL, moøna takøe wymusiÊ
-po≥±czenie przez SSL w przypadku zmiany has≥a przez uøytkownika.
+%description -l pl.UTF-8
+Change MySQL Password pozwala u≈ºytkownikom na zmianƒô ich hase≈Ç je≈õli
+sƒÖ przechowywane w mazie MySQL. Obs≈Çuguje szyfrowanie (MD5, SASL,
+UNIX) oraz has≈Ça czystym tekstem w zale≈ºno≈õci od tego, na co pozwala
+administrator. Je≈õli serwer WWW obs≈Çuguje SSL, mo≈ºna tak≈ºe wymusiƒá
+po≈ÇƒÖczenie przez SSL w przypadku zmiany has≈Ça przez u≈ºytkownika.
 
 %prep
 %setup -q -n %{_plugin}
