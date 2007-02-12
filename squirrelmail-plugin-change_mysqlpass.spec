@@ -1,7 +1,7 @@
 %define		_plugin	change_mysqlpass
 %define		mversion	1.2.8
 Summary:	Change_mysqlpass plugin for SquirrelMail
-Summary(pl.UTF-8):   Wtyczka do zmiany haseł w bazie MySQL
+Summary(pl.UTF-8):	Wtyczka do zmiany haseł w bazie MySQL
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	3.2
 Release:	1
